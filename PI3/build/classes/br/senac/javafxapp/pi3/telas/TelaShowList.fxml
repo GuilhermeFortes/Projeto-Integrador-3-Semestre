@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.javafxapp.pi3.telas.TelaShowListController">
+   <children>
+      <TableView fx:id="TBLSuperList" layoutX="17.0" layoutY="145.0" prefHeight="55.0" prefWidth="566.0">
+        <columns>
+          <TableColumn fx:id="TBCProfessor" prefWidth="75.0" text="Professor" />
+          <TableColumn fx:id="TBCAluno1" prefWidth="75.0" text="Aluno1" />
+            <TableColumn fx:id="TBCAluno2" prefWidth="75.0" text="Aluno2" />
+            <TableColumn fx:id="TBCAluno3" prefWidth="75.0" text="Aluno3" />
+            <TableColumn fx:id="TBCAluno4" prefWidth="75.0" text="Aluno4" />
+            <TableColumn fx:id="TBCAluno5" prefWidth="75.0" text="Aluno 5" />
+            <TableColumn fx:id="TBCLista" prefWidth="113.0" text="Lista" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

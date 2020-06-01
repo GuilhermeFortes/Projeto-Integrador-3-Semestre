@@ -16,6 +16,7 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <Button fx:id="BTLog" layoutX="274.0" layoutY="296.0" mnemonicParsing="false" onAction="#Log" text="Logar" />
+      <Button fx:id="BTLog" layoutX="274.0" layoutY="283.0" mnemonicParsing="false" onAction="#Log" text="Logar" />
+      <Button fx:id="BTBack" layoutX="274.0" layoutY="325.0" mnemonicParsing="false" onAction="#Back" text="Voltar" />
    </children>
 </AnchorPane>
