@@ -70,11 +70,11 @@
             <Button fx:id="BTBack" layoutX="91.0" layoutY="360.0" mnemonicParsing="false" onAction="#Back" text="Voltar" />
             <TextField fx:id="TFSearch" layoutX="289.0" layoutY="84.0" onAction="#Search" promptText="Pesquisar" />
             <ComboBox fx:id="CBSearchType" layoutX="91.0" layoutY="84.0" onAction="#SearchType" prefWidth="150.0" promptText="Procurar Por..." />
-            <TableView fx:id="TBLBanco" layoutX="20.0" layoutY="132.0" onSort="#Database" prefHeight="200.0" prefWidth="538.0">
-               <columns>
-                  <TableColumn fx:id="TBCNomeLista" prefWidth="274.0" text="NomeLista" />
-                  <TableColumn fx:id="TBCCodigo" prefWidth="263.0" text="Codigo" />
-               </columns>
+            <TableView fx:id="TBLData" layoutX="36.0" layoutY="142.0" onSort="#DataList" prefHeight="200.0" prefWidth="546.0">
+              <columns>
+                <TableColumn fx:id="TBCNomeLista" prefWidth="350.0" text="Nome da Lista" />
+                <TableColumn fx:id="TBCCodigo" prefWidth="195.0" text="ID da Lista" />
+              </columns>
             </TableView>
       </children>
     </AnchorPane>

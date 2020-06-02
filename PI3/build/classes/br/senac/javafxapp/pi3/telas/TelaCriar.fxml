@@ -13,18 +13,6 @@
 
 <AnchorPane id="AnchorPane" prefHeight="402.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.javafxapp.pi3.telas.TelaCriarController">
    <children>
-      <TableView fx:id="TBLAlunosDentro" layoutX="262.0" layoutY="188.0" onSort="#BDAlunos" prefHeight="200.0" prefWidth="200.0">
-        <columns>
-          <TableColumn prefWidth="138.0" text="Nome" />
-          <TableColumn prefWidth="61.0" text="Id" />
-        </columns>
-      </TableView>
-      <TableView fx:id="TBLAlunosFora" layoutX="25.0" layoutY="188.0" onSort="#AlunosNaLista" prefHeight="200.0" prefWidth="200.0">
-        <columns>
-          <TableColumn fx:id="TBCNomeAluno" prefWidth="137.0" text="Nome" />
-          <TableColumn fx:id="TBCID" prefWidth="62.0" text="Id" />
-        </columns>
-      </TableView>
       <TextField fx:id="TFList" layoutX="106.0" layoutY="14.0" onAction="#List" prefHeight="32.0" prefWidth="298.0" promptText="Nome da Lista" />
       <TextField fx:id="TFTeacher" layoutX="106.0" layoutY="51.0" onAction="#Teacher" prefHeight="32.0" prefWidth="298.0" promptText="Nome do Professor" />
       <TextField fx:id="TFSearch" layoutX="25.0" layoutY="152.0" onAction="#Search" promptText="Procurar Aluno" />
@@ -34,5 +22,16 @@
       <Button fx:id="BTBack" layoutX="21.0" layoutY="71.0" mnemonicParsing="false" onAction="#Back" text="Voltar" />
       <Button fx:id="BTCreate" layoutX="25.0" layoutY="34.0" mnemonicParsing="false" onAction="#Create" text="Criar" />
       <Button fx:id="BTUpdate" layoutX="184.0" layoutY="152.0" mnemonicParsing="false" onAction="#Update" text="Button" />
+      <TextField fx:id="TFAluno1" layoutX="288.0" layoutY="189.0" promptText="Aluno 1" />
+      <TextField fx:id="TFAluno2" layoutX="288.0" layoutY="223.0" promptText="Aluno 2" />
+      <TextField fx:id="TFAluno3" layoutX="288.0" layoutY="263.0" promptText="Aluno 3" />
+      <TextField fx:id="TFAluno4" layoutX="288.0" layoutY="298.0" promptText="Aluno 4" />
+      <TextField fx:id="TFAluno5" layoutX="288.0" layoutY="335.0" promptText="Aluno 5" />
+      <TableView fx:id="TBLAlunosFora" layoutX="25.0" layoutY="188.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="TBCNomeAluno" prefWidth="129.0" text="Aluno" />
+          <TableColumn fx:id="TBCID" prefWidth="70.0" text="Id" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
