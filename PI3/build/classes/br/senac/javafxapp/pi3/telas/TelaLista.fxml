@@ -76,6 +76,7 @@
                 <TableColumn fx:id="TBCCodigo" prefWidth="195.0" text="ID da Lista" />
               </columns>
             </TableView>
+            <Button fx:id="BTUpdate" layoutX="459.0" layoutY="84.0" mnemonicParsing="false" onAction="#Update" text="Atualizar" />
       </children>
     </AnchorPane>
   </children>
