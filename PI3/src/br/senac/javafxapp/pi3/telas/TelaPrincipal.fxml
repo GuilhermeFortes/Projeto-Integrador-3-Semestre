@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="600.0" style="-fx-background-color: #bfffd7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.javafxapp.pi3.telas.TelaPrincipalController">
+   <children>
+      <Button fx:id="BTShowList" layoutX="220.0" layoutY="46.0" mnemonicParsing="false" onAction="#Show" prefHeight="52.0" prefWidth="159.0" style="-fx-background-color: #51ed8a;" text="Listas Criadas" />
+      <Button fx:id="BTCreate" layoutX="220.0" layoutY="127.0" mnemonicParsing="false" onAction="#Create" prefHeight="52.0" prefWidth="159.0" style="-fx-background-color: #51ed8a;" text="Criar Lista" />
+      <Button fx:id="BTBack" layoutX="282.0" layoutY="291.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #51ed8a;" text="Sair" />
+      <Button fx:id="BTCourses" layoutX="220.0" layoutY="212.0" mnemonicParsing="false" onAction="#Courses" prefHeight="52.0" prefWidth="159.0" style="-fx-background-color: #51ed8a;" text="Lista de Cursos" />
+   </children>
+</AnchorPane>

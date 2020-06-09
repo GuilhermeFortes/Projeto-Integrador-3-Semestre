@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="492.0" style="-fx-background-color: #bfffd7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.javafxapp.pi3.telas.TelaCriarController">
+   <children>
+      <TextField fx:id="TFList" layoutX="106.0" layoutY="14.0" onAction="#List" prefHeight="32.0" prefWidth="298.0" promptText="Nome da Lista" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFTeacher" layoutX="106.0" layoutY="51.0" onAction="#Teacher" prefHeight="32.0" prefWidth="298.0" promptText="Nome do Professor" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFSearch" layoutX="25.0" layoutY="152.0" onAction="#Search" promptText="Procurar Aluno" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFCourse" layoutX="106.0" layoutY="87.0" onAction="#Course" prefHeight="32.0" prefWidth="298.0" promptText="Curso" style="-fx-background-color: #FFF;" />
+      <Label layoutX="284.0" layoutY="151.0" prefHeight="27.0" prefWidth="156.0" text="Alunos Inseridos">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font></Label>
+      <Separator layoutY="135.0" prefHeight="0.0" prefWidth="490.0" />
+      <Button fx:id="BTBack" layoutX="22.0" layoutY="71.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #51ed8a; -fx-font-family: Arial;" text="Voltar" />
+      <Button fx:id="BTCreate" layoutX="25.0" layoutY="34.0" mnemonicParsing="false" onAction="#Create" style="-fx-background-color: #51ed8a; -fx-font-family: Arial;" text="Criar" />
+      <Button fx:id="BTUpdate" layoutX="184.0" layoutY="152.0" mnemonicParsing="false" onAction="#Update" style="-fx-background-color: #51ed8a; -fx-font-family: Arial;" text="Button" />
+      <TextField fx:id="TFAluno1" layoutX="288.0" layoutY="202.0" promptText="Aluno 1" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFAluno2" layoutX="288.0" layoutY="238.0" promptText="Aluno 2" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFAluno3" layoutX="288.0" layoutY="276.0" promptText="Aluno 3" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFAluno4" layoutX="288.0" layoutY="313.0" promptText="Aluno 4" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="TFAluno5" layoutX="288.0" layoutY="348.0" promptText="Aluno 5" style="-fx-background-color: #FFF;" />
+      <TableView fx:id="TBLAlunosFora" layoutX="25.0" layoutY="188.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="TBCNomeAluno" prefWidth="129.0" text="Aluno" />
+          <TableColumn fx:id="TBCID" prefWidth="70.0" text="Id" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

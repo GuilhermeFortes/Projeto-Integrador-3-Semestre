@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bfffd7;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senac.javafxapp.pi3.telas.LoginController">
+   <children>
+      <TextField fx:id="TFUser" layoutX="226.0" layoutY="145.0" onAction="#User" promptText="User" style="-fx-background-color: #fff;" />
+      <PasswordField fx:id="PFPassword" layoutX="226.0" layoutY="187.0" onAction="#Password" promptText="Password" style="-fx-background-color: #fff;" />
+      <Label layoutX="270.0" layoutY="79.0" text="Login" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="BTLog" layoutX="274.0" layoutY="253.0" mnemonicParsing="false" onAction="#Log" style="-fx-background-color: #51ed8a;" text="Logar" />
+      <Button fx:id="BTBack" layoutX="274.0" layoutY="295.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #51ed8a;" text="Voltar" />
+   </children>
+</AnchorPane>
