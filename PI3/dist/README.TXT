@@ -1,32 +1,44 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+------------------------O PROJETO-------------------------------
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+A SuperList ÃƒÂ© uma aplicaÃƒÂ§ÃƒÂ£o de organizaÃƒÂ§ÃƒÂ£o de grupos de alunos.
+A aplicaÃƒÂ§ÃƒÂ£o permite o usuÃƒÂ¡rio que estiver usando criar uma lista
+com os IDs dos alunos disponÃƒÂ­vel pra consulta na ÃƒÂ¡rea de criaÃƒÂ§ÃƒÂ£o 
+de lista de atÃƒÂ© cinco alunos no mÃƒÂ¡ximo.
+O usuÃƒÂ¡rio cria um cadastro e deve logar com login e senha: "admin".
+para criar listas com alunos jÃƒÂ¡ existentes em seu banco de dados, 
+assim podendo editar os membros daquela lista.
+As listas possuem nome da lista e do professor responsÃƒÂ¡vel.
+As listas sÃƒÂ£o compostas por ID, Nome, ProfissÃƒÂ£o, Nascimento, Sexo,
+Peso, Altura, Nacionalidade.
 
-To run the project from the command line, go to the dist folder and
-type the following:
+A tabela para ver os cursos estÃƒÂ¡ ainda sendo desenvolvida e a tabela
+de id de alunos estÃƒÂ¡ disponÃƒÂ­vel na ÃƒÂ¡rea de criaÃƒÂ§ÃƒÂ£o.
 
-java -jar "PI3.jar" 
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
+Neste projeto foram utilizados:
+-JDK 8 
+-Java 8
+-Java FX
+-Scene Builder
+-Apache NetBeans 11
 
-Notes:
+Para baixar o projeto ÃƒÂ© necessÃƒÂ¡rio fazer o download via ZIP, ou clonÃƒÂ¡-lo 
+pelo seguinte link:
 
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+https://github.com/GuilhermeFortes/Projeto-Integrador-3-Semestre
+
+Pode ser necessÃ¡ria a mudanÃ§a da senha do banco de dados na AplicaÃ§Ã£o
+
+	-Abra o projeto no Netbeans ou no Eclipse
+	-Entre na classe Banco
+	-Ao lado de "root", no prÃ³ximo intervalo de aspas coloque a senha do seu banco de dados
+
+Ao baixar a aplicação, a importação do banco de dados que está inserida no link será necessária.
+
++------+.      +------+       +------+       +------+      .+------+
+|`.    | `.    |\     |\      |      |      /|     /|    .' |    .'|
+|  `+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+'  |
+|   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |
++---+--+.  |   +-+----+ |     +------+     | +----+-+   |  .+--+---+
+ `. |    `.|    \|     \|     |      |     |/     |/    |.'    | .'
+   `+------+     +------+     +------+     +------+     +------+'
